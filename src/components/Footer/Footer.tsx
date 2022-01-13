@@ -76,7 +76,7 @@ const MenuItem: React.FC<FooterProps> = ({
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
-            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+            {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
             <LangSelector
               currentLang={currentLang}
               langs={langs}
@@ -91,7 +91,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://retireswap.finance/swap?outputCurrency=0x90800e102a243d17e8d8e0f0e52284751bcac8fe"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
