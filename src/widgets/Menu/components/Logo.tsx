@@ -18,13 +18,13 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   .mobile-icon {
-    width: 100px;
+    width: 60px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
   }
   .desktop-icon {
-    width: 120px;
+    width: 80px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
