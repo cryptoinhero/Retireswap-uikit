@@ -33,9 +33,9 @@ const MenuItem: React.FC<FooterProps> = ({
   return (
     <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
-        <StyledIconMobileContainer display={["block", null, "none"]}>
+        {/* <StyledIconMobileContainer display={["block", null, "none"]}>
           <LogoWithTextIcon isDark width="80px" />
-        </StyledIconMobileContainer>
+        </StyledIconMobileContainer> */}
         <Flex
           order={[2, null, 1]}
           flexDirection={["column", null, "row"]}
@@ -65,9 +65,9 @@ const MenuItem: React.FC<FooterProps> = ({
               ))}
             </StyledList>
           ))}
-          <Box display={["none", null, "block"]}>
+          {/* <Box display={["none", null, "block"]}>
             <LogoWithTextIcon isDark width="80px" />
-          </Box>
+          </Box> */}
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
         <StyledToolsContainer
